@@ -13,6 +13,9 @@ public class PenjualanCelanaAksi {
     
     public static void main(String[] args) {
         PenjualanCelana r1 = new PenjualanCelana();
+        
+        r1.harga_celana = 200000;
+        r1.jumlah_celana = 2;
     }
     
 }
