@@ -14,6 +14,12 @@ public class PenjualanCelana {
     int harga_celana;
     int jumlah_celana;
     
+    public PenjualanCelana() {
+     harga_celana=200000;
+     jumlah_celana=2;
+     
+    }
+    
     void tampildata(){
     System.out.println("================================");
     System.out.println("harga_celana     :"+harga_celana);
@@ -22,11 +28,16 @@ public class PenjualanCelana {
     
     }
     
+    
     Integer hitungPembelian(){
             int total;
             total=harga_celana*jumlah_celana;
             return total;
             
     }
+     void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPembelian());
+        
+     }
     
 }
