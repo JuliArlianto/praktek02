@@ -22,4 +22,11 @@ public class PenjualanCelana {
     
     }
     
+    Integer hitungPembelian(){
+            int total;
+            total=harga_celana*jumlah_celana;
+            return total;
+            
+    }
+    
 }

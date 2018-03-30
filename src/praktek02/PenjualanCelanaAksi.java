@@ -18,6 +18,7 @@ public class PenjualanCelanaAksi {
         r1.jumlah_celana = 2;
         
         r1.tampildata();
+        System.out.println("total   =   "+r1.hitungPembelian());
     }
     
 }
