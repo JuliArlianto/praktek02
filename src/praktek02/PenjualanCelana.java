@@ -11,4 +11,15 @@ package praktek02;
  */
 public class PenjualanCelana {
     
+    int harga_celana;
+    int jumlah_celana;
+    
+    void tampildata(){
+    System.out.println("================================");
+    System.out.println("harga_celana     :"+harga_celana);
+    System.out.println("jumlah_celana     :"+jumlah_celana);
+    System.out.println("================================");
+    
+    }
+    
 }
