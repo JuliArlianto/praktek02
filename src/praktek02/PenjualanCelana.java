@@ -20,6 +20,12 @@ public class PenjualanCelana {
      
     }
     
+      public PenjualanCelana(int harga_celana, int jumlah_celana){
+        this.harga_celana = harga_celana;
+        this.jumlah_celana = jumlah_celana;
+        
+      }
+    
     void tampildata(){
     System.out.println("================================");
     System.out.println("harga_celana     :"+harga_celana);

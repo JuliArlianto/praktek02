@@ -21,6 +21,12 @@ public class PenjualanCelanaAksi {
         System.out.println("total   =   "+r1.hitungPembelian());
         r1.cetaktotal();
         
+        PenjualanCelana r2 = new PenjualanCelana();
+        r2.tampildata();
+        
+         PenjualanCelana r3 = new PenjualanCelana(500000,2);
+         r3.tampildata();
+        
     }
     
     
