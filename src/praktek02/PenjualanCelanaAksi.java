@@ -12,7 +12,7 @@ package praktek02;
 public class PenjualanCelanaAksi {
     
     public static void main(String[] args) {
-       
+        PenjualanCelana r1 = new PenjualanCelana();
     }
     
 }
